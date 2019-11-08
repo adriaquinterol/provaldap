@@ -11,7 +11,7 @@ Pasos realitzats per a la creació d'arxius:
 5. Creació del slapd.conf: [./slapd.conf](slapd.conf)
 6. Creació de "marchenaAccount.schema" (PartB): [./marcghenaAccount.schema](marchenaAccount.schema)
 
-- DockerHub (https://hub.docker.com/repository/docker/adriaquintero61/provaldap):
+- DockerHub (https://hub.docker.com/repository/docker/adriaquintero61/provaldap):  
 Repositori amb les imatges de la prova ldap
 Imatges:
     - 2019: servidor ldap amb les dades demanades
