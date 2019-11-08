@@ -1,0 +1,79 @@
+dn: dc=adria,dc=cat
+dc: adria
+description: prova ldap 2019
+objectClass: dcObject
+objectClass: organization
+o: adria.cat
+
+dn: ou=socis,dc=adria,dc=cat
+ou: socis
+description: Container per els socis
+objectclass: organizationalunit
+
+dn: idcat=1,dc=edt,dc=org
+objectclass: indepeOrgPerson
+cn: Josep Chas
+sn: Chas
+idcat: 1
+sardanes: TRUE
+lema: pa amb tomaquet
+twitter: https://twitter.com/josep
+homephone: 555-222-2224
+mail: josep@adria.cat
+description: Watch out for this guy
+ou: socis
+uid: josep
+uidNumber: 5004
+gidNumber: 100
+homeDirectory: /tmp/home/josep
+
+dn: idcat=2,dc=edt,dc=org
+objectclass: indepeOrgPerson
+cn: Maria Serrat
+sn: Serrat
+idcat: 2
+sardanes: TRUE
+lema: pa amb tomaquet
+twitter: https://twitter.com/maria
+homephone: 555-222-2225
+mail: maria@adria.cat
+description: Watch out for this girl
+ou: socis
+uid: maria
+uidNumber: 5005
+gidNumber: 100
+homeDirectory: /tmp/home/maria
+
+dn: idcat=3,dc=edt,dc=org
+objectclass: indepeOrgPerson
+cn: Miquel Closca
+sn: Closca
+idcat: 3
+sardanes: FALSE
+lema: pa amb tomaquet
+twitter: https://twitter.com/miquel
+homephone: 555-222-2226
+mail: miquel@adria.cat
+description: Watch out for this guy
+ou: socis
+uid: miquel
+uidNumber: 5006
+gidNumber: 100
+homeDirectory: /tmp/home/miquel
+
+dn: cn=Admin System,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: Administrador Sistema
+cn: System Admin
+sn: System
+homephone: 555-222-2225
+mail: anna@edt.org
+description: Watch out for this girl
+ou: system
+ou: admin
+uid: admin
+uidNumber: 10
+gidNumber: 10
+homeDirectory: /tmp/home/admin
+userPassword: {SSHA}4mS0FycWc5bkpW8/a396SGNDTQUlFSX3
