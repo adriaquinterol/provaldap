@@ -10,6 +10,7 @@ Pasos realitzats per a la creació d'arxius:
 4. Creació del install.sh: [./install.sh](install.sh)
 5. Modificació del slapd.conf (canviar l'arrel de la base de dades i incloure el schema): [./slapd.conf](slapd.conf)
 6. Creació de "marchenaAccount.schema" (PartB): [./marcghenaAccount.schema](marchenaAccount.schema)
+7. Creació de "acusats.ldif" (fitxer d'inserció dels socis amb delictes): [./acusats.ldif](acusats.ldif)
 
 - DockerHub (https://hub.docker.com/repository/docker/adriaquintero61/provaldap):  
 Repositori amb les imatges de la prova ldap
