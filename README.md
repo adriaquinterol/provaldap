@@ -8,7 +8,7 @@ Pasos realitzats per a la creació d'arxius:
 2. Creació de "edt.org.ldif" (usuaris): [./edt.org.ldif](edt.org.ldif)
 3. Creació del Dockerfile: [./Dockerfile](Dockerfile)
 4. Creació del install.sh: [./install.sh](install.sh)
-5. Creació del slapd.conf: [./slapd.conf](slapd.conf)
+5. Modificació del slapd.conf (canviar l'arrel de la base de dades i incloure el schema): [./slapd.conf](slapd.conf)
 6. Creació de "marchenaAccount.schema" (PartB): [./marcghenaAccount.schema](marchenaAccount.schema)
 
 - DockerHub (https://hub.docker.com/repository/docker/adriaquintero61/provaldap):  
