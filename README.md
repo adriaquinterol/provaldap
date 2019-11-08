@@ -4,7 +4,7 @@
 
 - GitHub (https://github.com/adriaquinterol/provaldap/):  
 Pasos realitzats per a la creació d'arxius:
-1. Creació de "indepeOrgPerson.schema": [./indepeOrgPerson.schema](indepeOrgPerson.schema)
+1. Creació de "indepeOrgPerson.schema": [./indepeOrgPerson.schema](indepeorgperson.schema)
 2. Creació de "edt.org.ldif" (usuaris): [./edt.org.ldif](edt.org.ldif)
 3. Creació del Dockerfile: [./Dockerfile](Dockerfile)
 4. Creació del install.sh: [./install.sh](install.sh)
